@@ -1,0 +1,12 @@
+<script type="text/javascript" src="angular-fusioncharts.js"></script>
+<div ng-controller="UsageController as vm">
+	<md-content class="md-padding" layout="row">
+		<fusioncharts 
+		  width="100%"
+		  height="500"
+		  type="msspline"
+		  dataFormat='json'
+		  dataSource="{{vm.dataSource}}">
+		</fusioncharts>
+	</md-content>
+ </div>

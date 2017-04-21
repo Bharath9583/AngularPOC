@@ -1,0 +1,13 @@
+<div ng-controller="WarningsController as vm" layout-gt-md="row">
+  <panel-widget flex title="Daily Summary  {{vm.CurrentDate | date:'dMMMyy'}}" template="app/views/partials/dailysummary.html" class="fixed-height-widget"></panel-widget>
+  <panel-widget flex title="Total Visits" template="app/views/partials/totalvisits.html" class="fixed-height-widget"></panel-widget>
+</div>
+
+<div layout-gt-md="row">
+  <panel-widget flex title="Trend" template="app/views/partials/controlPanel.html" class="fixed-height-widget"></panel-widget>
+  <panel-widget flex title="Live Feed" template="" class="fixed-height-widget"></panel-widget>
+</div>
+
+<div layout-gt-md="row">
+  <panel-widget flex title="Forecast" template="" class="fixed-height-widget"></panel-widget>
+</div>
